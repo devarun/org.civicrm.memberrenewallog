@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/membershiprenewallog</path>
+    <path_arguments>membership_id=%%membership_id%%</path_arguments>
+    <page_callback>CRM_Memberrenewallog_Page_RenewalLog</page_callback>
+    <title>RenewalLog</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/all/membershiprenewallog</path>
+    <path_arguments>cid=%%cid%%</path_arguments>
+    <page_callback>CRM_Memberrenewallog_Page_AllMembershipRenewals</page_callback>
+    <title>AllMembershipRenewals</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>
